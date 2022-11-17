@@ -1,0 +1,45 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+    }
+
+    int[] array = {50, 60, 40, 10, 38, 65, 87, 56, 90, 100, 66, 80, 88, 40, 98};
+    for(int element:array)
+
+    {
+        System.out.println(element);
+    }
+
+    String[] names = {"Shaza", "Mohamed", "Asmaa", "Anfal", "Yousra", "Amin", "Radwa", "Yasmeen"};
+       for
+               (int i = 0;
+    i<names.length;i++)
+
+    {
+        if (names[i].charAt(0) == "A") {
+            System.out.println(names[i]);
+        }
+
+        int[] x = {50, 60, 40, 10, 38, 65, 87, 56, 90, 100, 66, 80, 88, 40, 98};
+        for (int i = 0; i < x.length; i++) {
+            if (x[i] > 50)
+        }
+        System.out.println(x[i]);
+
+    }
+
+    Scanner sc = new Scanner(System.in);
+       System.out.println("ادخل رقم لتحقق مااذا كان الرقم موجود في المصفوفة!")
+    int[] numbers = {20, 25, 65, 44, 37, 65, 80, 92, 39, 90};
+          for(
+    int i = 0;
+    i<numbers.length;i++){
+        int check = sc.nextlnt();
+        if (number[i].contain(check))
+            System.out.println("لقد وجدناالرقم فعلا بالمصفوفة");
+        else
+            System.out.println("لم نجد الرقم الذي ادخلته");
+
+    }
+
